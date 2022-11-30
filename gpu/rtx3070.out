@@ -1,0 +1,28 @@
+Full Precision:
+fft(1024, 500000): 20.3 ms, 164.4 W, 7974.3 MiB -> 24631876.6 Tput, 149804.1 Tput/W
+fft(2048, 250000): 20.3 ms, 164.9 W, 7974.2 MiB -> 12318669.2 Tput, 74700.3 Tput/W
+fft(4096, 125000): 20.3 ms, 165.9 W, 7974.1 MiB -> 6159668.5 Tput, 37118.1 Tput/W
+fft(8192, 62500): 20.3 ms, 163.6 W, 7974.0 MiB -> 3080107.4 Tput, 18827.4 Tput/W
+complex_poly(1024, 330000): 60.2 ms, 155.5 W, 7901.2 MiB -> 5483886.5 Tput, 35270.5 Tput/W
+complex_poly(2048, 165000): 60.2 ms, 156.8 W, 7900.7 MiB -> 2741893.1 Tput, 17484.1 Tput/W
+complex_poly(4096, 82500): 60.2 ms, 157.9 W, 7901.6 MiB -> 1371071.9 Tput, 8685.7 Tput/W
+real_poly(1024, 285000): 40.3 ms, 154.7 W, 7962.0 MiB -> 7063652.2 Tput, 45653.5 Tput/W
+real_poly(2048, 142500): 40.7 ms, 160.5 W, 7961.7 MiB -> 3499294.0 Tput, 21807.6 Tput/W
+real_poly(4096, 71250): 40.7 ms, 161.3 W, 7960.0 MiB -> 1751763.4 Tput, 10860.2 Tput/W
+real_poly(8192, 35625): 40.6 ms, 154.0 W, 7958.6 MiB -> 877056.9 Tput, 5695.5 Tput/W
+
+Half Precision:
+fft(1024, 650000): 13.1 ms, 173.8 W, 7774.2 MiB -> 49641436.1 Tput, 285562.9 Tput/W
+fft(2048, 325000): 13.1 ms, 175.9 W, 7774.1 MiB -> 24773607.3 Tput, 140802.1 Tput/W
+fft(4096, 162500): 13.1 ms, 169.9 W, 7772.1 MiB -> 12388881.3 Tput, 72901.7 Tput/W
+fft(8192, 81250): 13.2 ms, 169.9 W, 7772.0 MiB -> 6162492.6 Tput, 36267.6 Tput/W
+fft(16384, 40625): 26.7 ms, 197.3 W, 7775.2 MiB -> 1519123.2 Tput, 7700.3 Tput/W
+complex_poly(1024, 500000): 45.3 ms, 164.8 W, 7972.3 MiB -> 11047477.6 Tput, 67053.8 Tput/W
+complex_poly(2048, 250000): 45.3 ms, 167.0 W, 7972.7 MiB -> 5519324.3 Tput, 33042.5 Tput/W
+complex_poly(4096, 125000): 45.3 ms, 162.5 W, 7972.3 MiB -> 2760686.1 Tput, 16984.1 Tput/W
+complex_poly(8192, 62500): 45.4 ms, 163.0 W, 7972.3 MiB -> 1375143.6 Tput, 8435.3 Tput/W
+real_poly(1024, 400000): 28.2 ms, 175.7 W, 7977.4 MiB -> 14199049.4 Tput, 80811.4 Tput/W
+real_poly(2048, 200000): 28.2 ms, 178.8 W, 7977.4 MiB -> 7099474.3 Tput, 39716.4 Tput/W
+real_poly(4096, 100000): 28.2 ms, 169.8 W, 7974.4 MiB -> 3548527.9 Tput, 20901.4 Tput/W
+real_poly(8192, 50000): 30.8 ms, 167.0 W, 7974.0 MiB -> 1625429.5 Tput, 9730.5 Tput/W
+real_poly(16384, 25000): 52.7 ms, 168.4 W, 7974.8 MiB -> 474287.0 Tput, 2816.4 Tput/W
