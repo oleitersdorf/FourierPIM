@@ -2,7 +2,7 @@
 ## Overview
 This is the simulation environment for the following paper, 
 
-`Orian Leitersdorf, Yahav Boneh, Gonen Gazit, Ronny Ronen, and Shahar Kvatinsky, “FourierPIM: High-Throughput In-Memory Fast Fourier Transform and Polynomial Multiplication,” 2022.` 
+`Orian Leitersdorf, Yahav Boneh, Gonen Gazit, Ronny Ronen, and Shahar Kvatinsky, “FourierPIM: High-Throughput In-Memory Fast Fourier Transform and Polynomial Multiplication,” Memories - Materials, Devices, Circuits and Systems, 2023.` 
 
 The goal of the simulator is to verify the correctness of the algorithms proposed in the paper,
 to measure the performance of the algorithms (latency, area, energy), and to serve as an open-source library that 
